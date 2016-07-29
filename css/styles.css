@@ -32,5 +32,64 @@ header h1 {
 
 #newsletter-signup {
     
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
 }
+
+#contact{
+    margin-top: 2px;
+    border-top: 2px solid black;
+        border-bottom: 3px solid black;
+    padding-bottom: 25px;
+}
+
+#contact,
+#newsletter {
+ 
+    text-align: left;
+    
+}
+
+#contact input,
+#contact select {
+    
+   
+    padding: 15px 0 15px 0;
+    text-align: right;
+}
+
+#contact input,
+#contact select,
+#newsletter textarea,
+button {
+
+     width: 100%;
+    background-color: #eff0f1;
+    border-radius: 5px;
+    border:none;
+}
+
+#newsletter textarea {
+    
+    resize: none;
+}
+
+#contact input:last-child {
+    
+    width: 50%;
+}
+
+#newsletter ul {
+    
+    list-style: none;
+    padding-left: 0;
+}
+
+button {
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background: #4ebbb5;
+    
+    }

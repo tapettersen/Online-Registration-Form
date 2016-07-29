@@ -1,24 +1,69 @@
 <!DOCTYPE html>
 <html lang="EN">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <link rel="stylesheet" href="css/styles.css"> </head>
 
 <body>
-   <header>
-       <h1>THE CODE REVIEW</h1>
-       
-   </header>
-   <div id="wrapper">
-       <div id="newsletter-signup">
-        <h2>Signup for our newsletter</h2>
-        <p>Get the latest news on your code is doing right in your inbox</p>
-        
+    <header>
+        <h1>THE CODE REVIEW</h1> </header>
+    <div id="wrapper">
+        <div id="newsletter-signup">
+            <h2>Signup for our newsletter</h2>
+            <p>Get the latest news on your code is doing right in your inbox</p>
+        </div>
+        <div id="contact">
+            <h2>Contact information</h2>
+            <form action="index.html" method="post">
+                <h3>Full Name</h3>
+                <input type="text" id="name" name="contact_name" placeholder="Required">
+                <h3>Email Adress</h3>
+                <input type="email" id="email" name="contact_email" placeholder="Required">
+                <h3>Phone Number</h3>
+                <input type="text" id="phone" name="contact_phone">
+                <h3>Street Adress</h3>
+                <input type="text" id="adress" name="contact_adress">
+                <h3>City</h3>
+                <input type="text" id="city" name="contact_city">
+                <h3>State</h3>
+                <select>
+                    <option value="" selected>Choose State</option>
+                </select>
+                <h3>Zip Code</h3>
+                <input type="text" id="zipcode" name="contact_zipcode"> </form>
+        </div>
+        <div id="newsletter">
+            <h2>Newsletter</h2>
+            <p>Select the newsletter you would like to recieve</p>
+            <form>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" checked>HTML News</label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox">CSS News</label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox">Javascript News</label>
+                    </li>
+                </ul>
+                <p>Newsletter format</p>
+                <ul>
+                    <li><input type="radio" name="html" value="HTML" checked>HTML</li>
+                    <li><input type="radio" name="html" value="HTML" checked>Plain text</li>
+                </ul>
+                <p>Other topics you`d like to hear about</p>
+                <textarea rows="6"></textarea>
+                <button>Sign Up</button>
+            </form>
+        </div>
     </div>
-   </div>
-    
 </body>
+
 </html>
